@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 vector<int> nextPermutation(vector<int> &nums, int n)
 {
-    //  Write your code here.
         int x = -1, y = -1;
         for(int i = 0; i < n-1; i++) 
             if(nums[i] < nums[i+1]) 
@@ -11,7 +10,7 @@ vector<int> nextPermutation(vector<int> &nums, int n)
         if(x == -1)
         {
             // sort in ascending order
-            sort(nums.begin(), nums.end());
+            reverse(nums.begin(), nums.end());
             return nums;
         }
         
