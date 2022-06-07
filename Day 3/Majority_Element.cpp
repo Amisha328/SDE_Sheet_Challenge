@@ -4,7 +4,7 @@
 
 #include <bits/stdc++.h> 
 int findMajorityElement(int arr[], int n) {
-    // using Moore's arroting algorithm
+    // using Moore's voting algorithm
         int res = 0, c = 1;
         for(int i = 1; i <  n; i++)
         {
