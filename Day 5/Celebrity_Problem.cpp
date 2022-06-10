@@ -7,6 +7,7 @@
 	Function 'knows(A, B)' will returns "true" if the person having
 	id 'A' know the person having id 'B' in the party, "false" otherwise.
 */
+
 // TC-> O(n) | SC-> O(1)
 #include <bits/stdc++.h> 
 int findCelebrity(int n) {
