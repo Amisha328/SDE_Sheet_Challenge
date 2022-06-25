@@ -1,4 +1,6 @@
 // Intersection of Two Linked Lists
+// Explantion:
+// https://rb.gy/jm6muq
 
 #include <bits/stdc++.h> 
 /****************************************************************
