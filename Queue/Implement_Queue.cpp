@@ -1,4 +1,4 @@
-// Implement a Queue using Stack
+// Implement a Queue using Array
 
 #include <bits/stdc++.h> 
 class Queue {
