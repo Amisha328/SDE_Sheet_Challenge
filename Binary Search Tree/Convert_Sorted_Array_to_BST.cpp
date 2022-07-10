@@ -19,6 +19,7 @@
     };
 
 ************************************************************/
+#include <bits/stdc++.h> 
 TreeNode<int> *formBST(vector<int> &pre, int start, int end)
 {
         if(start > end) return NULL;
