@@ -28,7 +28,7 @@
     };
 
 *************************************************************/
-#include <bits/stdc++.h> 
+#include<bits/stdc++.h>
 TreeNode<int>* formBST(vector<int> &pre, int &idx, int bound){
     if(idx == pre.size() || pre[idx] > bound) return NULL;
     TreeNode<int> *root = new TreeNode<int>(pre[idx++]);
