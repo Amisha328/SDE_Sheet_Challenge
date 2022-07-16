@@ -35,7 +35,7 @@ vector<pair<pair<int, int>, int>> calculatePrimsMST(int n, int m, vector<pair<pa
     }
     
     vector<pair<pair<int, int>, int>> ans;
-    for(int i=2; i<=n; ++i) ans.push_back({{parent[i], i}, dist[i]});
+    for(int i = 2; i <= n; i++) ans.push_back({{parent[i], i}, dist[i]});
     
     return ans;
 }
